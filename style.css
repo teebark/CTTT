@@ -1,0 +1,92 @@
+/*
+ Theme Name:   CTTT GP Child
+ Theme URI:    https://generatepress.com
+ Description:  Default Generate Press child
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+/* Primary nav item spacing */
+.wp-block-navigation__container {
+	gap: 2rem;
+}
+/*
+#modal-1-content {
+	text-align: left;
+}
+.primary-navigation .main-nav ul li.nav-button a {
+	background: green;
+	height: 3rem;
+	border-radius: 90px;
+}
+.secondary-navigation {
+	margin-left: 20vw !important;
+	background-color: transparent !important;
+}
+.home .hero-priority {
+	z-index: 20;
+}
+
+.byline-button-grid .gb-inside-container{
+	height: 9rem;
+}
+.header-byline .gb-inside-container{
+	margin-top: 2.5rem;
+}
+.footer-button-grid .gb-button-wrapper {
+	justify-content: center;
+}
+*/
+.header-img.shrink {
+	max-width:6rem;
+}
+.gb-container.shrink {
+	align-items: center;
+}
+/*
+.navigation-branding .sticky-navigation-logo img {
+  height: 5rem;
+  width: auto;
+}
+*/
+/* Decrease item spacing in mobile hamburger drop downs --------------------------------------------------- */
+@media (max-width: 768px) {
+	/*
+.home figure.wp-block-image.header-image {
+	text-align: center;
+}
+.home .wp-block-image.header-image img {
+	max-width: 200px;
+}
+.byline-button-grid .gb-inside-container{
+	height: 3rem;
+	width: 100vw;
+}
+.button-grid .gb-inside-container{
+	margin-top: 1rem;	
+	margin-bottom: 2rem;
+}
+.header-byline .gb-inside-container{
+	margin-top: 1rem;
+}
+.home .header-byline {
+	text-align: center;
+}
+*/
+/*
+.main-navigation .main-nav ul li a {
+	line-height: 30px;
+	}
+h1.hero-title {
+	font-size: 1.2rem;
+}
+ul,
+ul.has-background {
+	padding-top: 1rem !important;
+	padding-bottom: .5rem !important;
+	margin-bottom: 0 !important;
+	margin-left: 0 !important;
+	}
+*/
+}
